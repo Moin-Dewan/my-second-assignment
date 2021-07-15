@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif
+}
+/* top banner styles */
+.top-banner{
+    padding-top: 121px;
+    background: #2D25A0;
+    width: 100%;
+    display: flex;
+    padding-bottom: 86px;
+}
+.banner-text{
+    width: 485px;
+    height: 230px;
+    margin-left: 56px;
+    font-size: 64px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif
+}
+.watch-btn{
+    color: #ffffff;
+    font-weight: 300;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #E02C6D;
+
+}
+.banner-image{
+    width: 556.01px;
+    height: 438px;
+    padding-left: 102px;
+    padding-right: 140px;
+}
+/*-------------------\
+  players blogs styles 
+\--------------------*/
+.players-1, .players-2, .players-3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.player{
+    /* width: 335px;
+    height: 474px; */
+    width: 25%;
+    margin: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+.football-hero{
+    height: 256px;
+    width: 300px;
+    margin: 16px;
+}
+.football-hero h1{
+    font-size: 28px;
+}
+.player-info{
+    width: 300px;
+    font-size: 16px;
+}
