@@ -51,9 +51,12 @@ body{
     padding: 15px;
 }
 .football-hero{
-    height: 256px;
-    width: 300px;
-    margin: 16px;
+    /* height: 256px;
+    width: 300px; */
+    width: 80%;
+    align-content: center;
+    padding-top: 20px;
+    margin-left: 25px;
 }
 .football-hero h1{
     font-size: 28px;
@@ -61,4 +64,28 @@ body{
 .player-info{
     width: 300px;
     font-size: 16px;
+}
+/*-------------\
+ footer styles 
+\-------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+footer img{
+width: 483.87px;
+height: 110px;
+}
+.fab{
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.copyright{
+    margin-top: 0px;
+    padding-top: 0px;
 }
